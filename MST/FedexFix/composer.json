@@ -1,0 +1,18 @@
+{
+    "name": "MST/FedexFix",
+    "description": "Fixes Magentos core Fedex Shipping carrier to align with updated API and currency conversion to work in regions other than the USA.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0|~8.1",
+        "magento/module-fedex": "100.3.*|100.4.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MST\\FedexFix\\": ""
+        }
+    }
+}
